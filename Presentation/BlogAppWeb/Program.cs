@@ -1,6 +1,10 @@
 using DataAccess.ConfigurationsJson;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//My
+///var asembly =Assembly.GetExecutingAssembly().FullName;
 
 // Add services to the container.
 builder.Services.AddRazorPages();
