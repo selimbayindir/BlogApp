@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20221005165758_mig1")]
-    partial class mig1
+    [Migration("20221006062921_mig111")]
+    partial class mig111
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -18,8 +18,12 @@ namespace DataAccess.ConfigurationsJson
                 configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../BlogAppWeb"));
                 configurationManager.AddJsonFile("appsettings.json");
 
-                return configurationManager.GetConnectionString("DefaultSqlConnection");
+               /// return configurationManager.GetConnectionString("DefaultSqlConnection");
+                return configurationManager.GetConnectionString("JobsqlConnection");
+                
+
             }
-    }
+            
+        }
 }
 }
